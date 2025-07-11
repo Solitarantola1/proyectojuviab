@@ -1,0 +1,132 @@
+/* Estilos Generales */
+* {
+  margin: 0;
+}
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    height: 17rem;
+    background-size: cover;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 8px;
+    font-size: 18px;
+}
+.lista a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+/* Estilos Footer*/
+.contenedor-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.imagen-footer{
+    width: 3rem;
+}
+
+/* Estilos Index*/
+
+H1{
+    font-size: 80px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.titulo-principal{
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.boton{
+    width: 10rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(239, 83, 166);
+    padding: 10px 10px 10px 10px;
+    border-radius: 7%
+}
+
+.carrusel{
+    height: 30rem;
+}
+
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card-img-top{
+    height: 17rem;
+    width: 70rem;
+    transition: transform .4s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+/* Estilos Locales */
+
+grid-item{
+    text-decoration: none;
+    color: black;
+}
+.grid-container a{
+    color: black;
+}
+
+
+
+/* Estilos Productos (compartido con estilos Index) */
+
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card-img-top{
+    height: 17rem;
+    width: 70rem;
+    transition: transform .4s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* Estilos Contacto */
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .lista {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }

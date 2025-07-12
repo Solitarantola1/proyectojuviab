@@ -70,10 +70,6 @@ H1{
   object-fit: cover;
 }
 
-.carrusel{
-    margin: auto;
-}
-
 .flex-card{
     display: flex;
     flex-wrap: wrap;

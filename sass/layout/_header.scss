@@ -1,0 +1,27 @@
+/* HEADER */
+.header {
+  height:17rem;
+  background-size: cover;
+}
+
+.imagen-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.lista {
+  @extend %flexlistaform;
+  align-items: center;
+  list-style-type: none;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.lista a {
+  color: $colorNegro;
+}
+
+.lista a {
+  @extend %decoNone;
+}

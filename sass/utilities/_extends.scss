@@ -1,0 +1,23 @@
+/* Extends */
+%flexCard{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+%decoNone{
+  text-decoration: none;
+}
+
+%flexlistaform{
+  display: flex;
+  flex-direction: column;
+}
+
+%fontWeight{
+  font-weight: bold;
+}
+
+%transform{
+  transform: scale(1.1);
+}

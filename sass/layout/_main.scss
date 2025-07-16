@@ -1,0 +1,87 @@
+/* Estilos Main */
+H1 {
+  font-size: 80px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.titulo-principal {
+  font-size: 40px;
+  margin-top: 2rem;
+  color: $colorNegro;
+}
+
+.boton {
+  width: 10rem;
+
+  @extend %fontWeight;
+
+  color: $colorNegro;
+  @extend %decoNone;
+  background-color: $background;
+  padding: 10px 10px 10px 10px;
+  border-radius: 7%;
+}
+
+.carousel img {
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.flex-card {
+@extend %flexCard;
+}
+
+.card-img-top {
+  height: 17rem;
+  width: 70rem;
+  transition: transform 0.4s;
+}
+.card-img-top:hover {
+  @extend %transform;
+}
+
+.card {
+  margin-left: 2rem;
+}
+
+grid-item {
+  @extend %decoNone;
+}
+
+.grid-container a {
+  color: $colorNegro;    
+}
+
+.grid-container a {
+  @extend %decoNone;
+}
+
+.quienes{
+    color:$colorNegro;
+}
+
+.flex-card {
+  @extend %flexCard;
+}
+
+.card-img-top {
+  
+  width: 70rem;
+  transition: transform 0.4s;
+}
+
+.card-img-top:hover {
+  @extend %transform;
+}
+
+.form-flex {
+  @extend %flexlistaform;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+    @extend %fontWeight;
+
+}

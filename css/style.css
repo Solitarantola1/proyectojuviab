@@ -18,8 +18,14 @@
   font-weight: bold;
 }
 
-.card-img-top:hover {
-  transform: scale(1.1);
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 /* Variables */
@@ -67,6 +73,14 @@ H1 {
   border-radius: 7%;
 }
 
+.map-container {
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
 .carousel img {
   height: auto;
   max-height: 300px;
@@ -76,7 +90,6 @@ H1 {
 .card-img-top {
   height: 17rem;
   width: 70rem;
-  transition: transform 0.4s;
 }
 
 .card {
@@ -93,7 +106,6 @@ H1 {
 
 .card-img-top {
   width: 70rem;
-  transition: transform 0.4s;
 }
 
 .form-flex {
@@ -101,6 +113,27 @@ H1 {
   width: 100%;
   max-width: 500px;
   padding: 10px;
+}
+
+.card-sobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card-sobre{
+  margin-top: 2rem;
+}
+
+.imagen-sobre{
+  width: 350px;
+  height: 270px;
 }
 
 .parent {
@@ -151,6 +184,12 @@ H1 {
   color: black;
 }
 
+.centrar-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Estilos Footer*/
 .contenedor-imagenes {
   display: flex;
@@ -194,7 +233,8 @@ grid-row-gap: 0px;
 .div4 { grid-area: 1 / 4 / 2 / 5; } 
 
 .div1, .div2, .div3, .div4{
-    width: 22rem;
+    width: 20rem;
+    margin: 1rem;
   }
 }
 /* Estilos Generales */
@@ -248,6 +288,16 @@ grid-row-gap: 0px;
 
 .div1 a, .div2 a, .div3 a, .div4 a{
   color: #000;
+}
+
+@media (min-width: 768px){
+  .card-sobre{
+  flex-direction: row;
+  max-width: 1300px;
+  }
+
+ 
+ 
 }
 
 /*# sourceMappingURL=style.css.map */
